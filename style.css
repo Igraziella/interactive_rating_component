@@ -1,37 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
 html {
     scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin-bottom: 5px;
 }
 
 body {
     background-color: hsl(216, 12%, 8%);
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 15%;
-    font-family: Overpass;
-    font-size: 15px;
+    margin: 1.5rem;
+    font-family: "Overpass";
+    font-size: 14px;
+    min-height: 100vh;
 }
 
-.container {
+.container, .container2 {
     box-sizing: border-box;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    background-color:  hsl(213, 19%, 18%);
+    background-color: hsl(213, 19%, 18%);
     padding: 1rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 50%;
+    max-width: 340px;
 }
 
 .icon img {
-    box-sizing: border-box;
+    background-color: hsl(217, 20%, 23%);
     padding: 12px 12px;
     border-radius: 50%;
     overflow: hidden;
@@ -39,116 +42,100 @@ body {
 
 h2 {
     color:  hsl(0, 0%, 100%);
-}
+} 
 
 p, .btn-num {
-    color: hsl(217, 12%, 63%);
+    line-height: 1.3rem;
+    color:  hsl(217, 12%, 63%);
 }
 
-.btn-num span {
-    display: inline-block;
-    margin: 9px;
+.container ul li button {
+    font-size: 14px;
     border-radius: 50%;
-    padding: 12px 15px;
+    background-color: hsl(217, 20%, 23%);
+    height: 2.5rem;
+    width: 2.5rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-.btn-num span, .icon img, .selection-btn{
-    background-image: linear-gradient(rgb(0 0 0/10%) 0 0);
+.container ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.btn-num span:hover {
+.container ul li button:hover {
     background-color: hsl(25, 97%, 53%);
 }
 
-.btn-num span:active {
+.container ul li button:focus {
     background-color:  hsl(217, 12%, 63%);;
     color: hsl(0, 0%, 100%);
 }
 
-.submit-btn {
+button.submit-btn {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin-top: 15px;
+    padding: 12px 0 10px 0; 
     border-radius: 20px;
-    overflow: hidden;
+    border: none;
     letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
-a {
-    text-decoration: none;
-    color: hsl(0, 0%, 100%);
-}
- 
-.submit-btn:active {
-    background-color:  hsl(0, 0%, 100%);
+.submit-btn:hover {
+    background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
 }
 
 .container2 {
-    box-sizing: border-box;
-    border-radius: 10px;
-    background-color: hsl(213, 19%, 18%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 20px;
-    margin: 5px;
-    width: 25vw;
-
-}
-
-.selection {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .selection-btn {
-    box-sizing: border-box;
     border-radius: 20px;
+    background-color: hsl(217, 20%, 23%);
     color: hsl(25, 97%, 53%);
     padding: 10px;
     margin-top: 20px;
+    font-size: 14px;
 }
 
-.appreciation {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.hidden {
+    display: none;
+}
+
+.attribution { 
+    font-size: 11px;
     text-align: center;
+    color: hsl(0, 0%, 100%);;
 }
 
-.appreciation p {
-    margin: 0;
+.attribution a { 
+    color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-device-width: 375px) {
-    div.container {
-        width: 300px;
-        background-position: 50%;
-        overflow: hidden;
-    }
-    
-    div.btn-num span {
-        margin: 5px;
-        padding: 10px 15px;
+@media only screen and (max-width: 375px) {
+    div.container, div.container2 {
+        width: 340px;
     }
 }
 
-@media only screen and (max-device-width: 375px) {
-    .container2 {
-        width: 300px;
-    }
-}
-
-@media only screen and (min-device-width: 1440px) {
-    .container {
-        width: 1054px;
+@media only screen and (max-width: 1440px) {
+    div.container, div.container2 {
+        width: 1356px;
     }
 }
