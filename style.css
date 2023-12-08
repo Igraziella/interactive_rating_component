@@ -128,9 +128,13 @@ button.submit-btn {
     color: hsl(228, 45%, 44%);
 }
 
+
 @media only screen and (max-width: 375px) {
-    div.container, div.container2 {
-        width: 340px;
+    div.container {
+        width: 350px;
+    }
+    div.container2 {
+        width: 250px;
     }
 }
 
