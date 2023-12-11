@@ -31,12 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./rating.PNG)
+!./rating.PNG
   
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://interactive-rating-component-bay-five.vercel.app/)
+- Solution URL: https://www.frontendmentor.io/solutions/interactive-rating-component-with-html-css-and-js-Te8rrdQh5-
+- Live Site URL: https://interactive-rating-component-bay-five.vercel.app/
 
 ## My process
 
