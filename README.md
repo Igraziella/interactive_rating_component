@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![]./images/rating.PNG
+![](./images/rating.png)
   
 ### Links
 
