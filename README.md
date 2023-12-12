@@ -76,7 +76,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Stack Oerflow](https://www.example.com) - I learnt to use the css linear gradient property to either lighten or darken colours of the same background. Although I didn't end up using it in this project, It was worth learning.
+- [Stack Overflow](https://www.example.com) - I learnt to use the css linear gradient property to either lighten or darken colours of the same background. Although I didn't end up using it in this project, It was worth learning.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
@@ -85,6 +85,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - [Obialor Ijeoma](https://my-portfolio-project-alpha.vercel.app/)
 - Frontend Mentor - [Igraziella](https://www.frontendmentor.io/profile/igraziella)
+- Linkedin - [Obialor Ijeoma](https://www.linkedin.com/in/ijeoma-obialor-012494114)
 - Twitter - [@ObialorGraziel2](https://twitter.com/ObialorGraziel2)
 
 ## Acknowledgments
