@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/rating.png)
+![](./rating.png)
   
 ### Links
 
