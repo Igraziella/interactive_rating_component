@@ -16,7 +16,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -50,18 +49,17 @@ Users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
 submit-btn {
   background-color: liner-gradient();
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+rates.forEach((rate) => {
+    rate.addEventListener("click", () => {
+        rating.innerHTML = rate.innerHTML
+    })
+})
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -72,14 +70,10 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued develop ment.**
-
 ### Useful resources
 
 - [Stack Overflow](https://www.example.com) - I learnt to use the css linear gradient property to either lighten or darken colours of the same background. Although I didn't end up using it in this project, It was worth learning.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Rivendell web](https://publishing-project.rivendellweb.net/lightening-and-darkening-colors-with-css/#:~:text=Each%20of%20the%20lightened%20colors,to%20lighten%20the%20color%20by.&text=We%20then%20create%20classes%20for,in%20the%20background%2Dcolor%20property.) - This is an amazing article which helped me finally understand how to darken and lighten colours having the same background colors. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
